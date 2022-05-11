@@ -1,5 +1,5 @@
 import { Search } from "../search";
-import { navmenu } from "../navmenu";
+
 import "./navbar.css"
 export const NavBar = () => {
   return (
@@ -11,7 +11,7 @@ export const NavBar = () => {
                         <img 
                         className="img-style"
                         src= {"https://apoyameaqui.cl/images/marketplaces/mercadolibre.png"}   alt="home"/>
-                         <Search  />
+                         <Search  /> 
                          <img 
                         className="img-style2"
                         src= {"https://http2.mlstatic.com/D_NQ_662358-MLA49879457438_052022-OO.webp"}   alt="home"/> 
@@ -32,9 +32,13 @@ export const NavBar = () => {
                    <li className="nav-menu-item">  <a href="home"> Ayuda / PQR </a> </li>
                 </ul>
             </div> 
-                <div>
-                  <Navmenu/>
-                </div>
+
+              <div id="nav-header-menu">
+
+                  <a href='home'> Crea tu cuenta </a> 
+                  <a href="home"> Ingresa </a>
+                  <a href='home'> Mis Compras </a>
+              </div>
    </div>
    
    
