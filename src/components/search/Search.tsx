@@ -12,12 +12,12 @@ export const Search = () => {
     type="text"
     autoComplete="false"
     minLength={3}
-    placeholder='Buscar'
+    placeholder='Buscar productos, marcas y más...'
     />
     <button type='button'
     className='boton-search'
     > 
-        <MagnifyingGlass size={24} weight="thin" />
+        <MagnifyingGlass size={19} weight="thin" />
          </button>
          </div>
 </>
