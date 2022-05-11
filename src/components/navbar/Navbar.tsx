@@ -1,5 +1,4 @@
 import { Search } from "../search";
-
 import "./navbar.css"
 export const NavBar = () => {
   return (

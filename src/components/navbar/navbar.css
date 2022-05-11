@@ -9,11 +9,6 @@
 
 }
 
-.container{
-
-
-   
-}
 
 
 .img-style{
@@ -23,7 +18,25 @@
 
 }
 
-.img-style2{
-   
+
+
+.nav-menu-list{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.nav-menu-item{
+    display: inline;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+
+a{
+
+    color: #333;
+    text-decoration: none;
 
 }
